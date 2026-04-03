@@ -48,9 +48,9 @@ public class Main {
         System.out.println("Enter username: ");
         String username = scanner.nextLine();
         System.out.println("Enter email: ");
-        String password = scanner.nextLine();
-        System.out.println("Enter password: ");
         String email = scanner.nextLine();
+        System.out.println("Enter password: ");
+        String password = scanner.nextLine();
 
         User user = new User(username, email, password);
         boolean status = userDAO.addUser(user);
